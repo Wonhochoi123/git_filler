@@ -5,8 +5,8 @@
 
 import os
 from random import randint
-for i in range(1,182):
-    for j in range(0,randint(1,10)):
+for i in range(1,365*4):
+    for j in range(0,randint(1,3)):
         d=str(i)+" days ago"
         with open('file.txt','a') as file:
             file.write(d)
